@@ -1,0 +1,138 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    height: auto;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+}
+.imglogo{
+    width: 180px;
+    height: auto;
+}
+
+ul{
+    display: flex;
+   
+    list-style: none;
+    font-size: 1.5em;
+    font-family: "Montserrat";
+    margin: 12px;
+  
+}
+.ulbox{
+    width: 100%;
+    height: 70px;
+    
+    border-top: 1.5px #f5398f solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+   
+  
+    
+    
+}
+li{
+    color: #f5398f;
+    padding-left: 100px;
+    padding-right: 100px;
+    text-transform: uppercase;
+}
+p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Montserrat";
+    font-size: 1.5em;
+    color: #f5398f;
+}
+.tophr{
+    padding: 30px 0px 7px;
+    background-color: #fff;
+        color: #f5398f;
+        font-family: Helvetica,Arial,"Lucida Grande",sans-serif;
+        font-weight: 300;
+}
+.pinkbox{
+    border-top: 2px #f5398f solid;
+    border-bottom: 1.5px #f5398f solid;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  
+}
+.first{
+    width: 100%;
+    height: auto;
+   
+}
+.pic1{
+ display: block;
+ margin: auto;
+
+}
+.horizontal{
+    border-top: solid 1px #f5398f;
+}
+.twopics{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    
+}
+.bip22{
+    border-left: solid 2.5px  #f5398f;
+    border-right: solid 1px #f5398f ;
+   
+}
+.bip23{
+    border-left: solid 1px  #f5398f;
+}
+.anothertwo{
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+}
+.bip24{
+    border-left: solid 2.5px  #f5398f;
+    border-right: solid 1px #f5398f ;
+    border-bottom:solid 1px #f5398f  ;
+    border-top: solid 1px #f5398f;
+}
+   
+.bip25{
+    border-left: solid 1px  #f5398f;
+    border-bottom: solid 1px #f5398f  ;
+    border-top: solid 1px #f5398f;
+}
+.lastimage{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-bottom: 50px;
+}
+.bip26{
+    border-bottom:solid 1px #f5398f  ;
+}
+.containerblob{
+    width: 80%;
+    display: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    flex-wrap: wrap;
+}
